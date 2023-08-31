@@ -1,0 +1,39 @@
+algoritmo "estacao"
+
+var
+estacao: caracter
+
+
+inicio
+Escreval ("Qual é a sua estação do ano preferida?")
+Escreval ("Primavera, verao, outono ou inverno? Digite...")
+Leia(estacao)
+
+se estacao = "verao" entao
+   escreval ("Os dias durante o verão são mais longos que as noites.")
+
+senao
+
+   se estacao = "inverno" entao
+      escreval ("Inverno é a mais fria entre as quatro estações do ano.")
+
+   senao
+
+      se estacao = "outono" entao
+         escreval ("No outono reduz gradativamente a temperatura.")
+
+      senao
+
+         se estacao = "primavera" entao
+            escreval ("A primavera é caracterizada por apresentar dias com temperaturas amenas.")
+
+         senao
+
+            Escreval ("Estação inválida")
+
+         fimse
+      fimse
+   fimse
+fimse
+
+fimalgoritmo
